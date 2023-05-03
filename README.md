@@ -24,7 +24,10 @@ Para lograr el objetivo anterior se requerirán de los siguientes datasets:
 
 ## Desarrollo
 Se deberá de generar un modelo para poder determinar si algunas variables sociodemográficas y/o económicas de una localidad como son: el tamaño de la población, la actividad económica preponderante, el nivel de ingreso y gastos, tienen influencia en el comportamiento de ventas de una tienda. Para lo anterior se utilizará el dataset existente de datos históricos de las tiendas y se añadirán algunos datos provenientes de las encuestas del INEGI ya mencionadas de la localidad actual de cada tienda.
+
 Se seleccionará el mejor método de entrenamiento y creación del modelo para generar un modelo que pueda predecir el comportamiento de ventas de una tienda, dependiendo de la localidad en la que se elija abrir la nueva tienda. 
+
+
 Se tomará la decisión de abrir la nueva tienda, sólo si se supera el promedio de ventas del año pasado de las tiendas del mismo formato.
 
 
