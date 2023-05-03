@@ -16,6 +16,18 @@ Con base en datos históricos del desempeño de las ventas de las tiendas clasif
 ## Objetivo
 El objetivo de este proyecto es generar un modelo de Machine Learning que apoye la toma de decisiones sobre el lugar más adecuado para la apertura de nuevas tiendas de venta al detalle, en una región geográfica específica, haciendo una predicción del desempeño de esta nueva sucursal. El modelo hace base en un conjunto de variables geográficas y sociodemográficas de los diferentes sitios que son candidatos para la apertura. Con estas variables como entrada, se desea que el modelo pueda predecir la mejor ubicación para abrir una nueva tienda, en la que se maximice el desempeño; es decir, donde el margen de la venta neta sea mayor.
 
+## Datasets
+Para lograr el objetivo anterior se requerirán de los siguientes datasets:
+1.- Histórico de ventas clasificados por tienda, tipo de tienda, asentamiento o localidad y fecha.
+2.- Datos de demográficos clasificados por localidad o asentamiento, provenientes de la Encuesta Nacional de Ocupación y Empleo Nueva Edición (ENOEN) del INEGI
+3.- Datos de actividad económica clasificados por localidad provenientes de la Encuesta Nacional de Ingresos y Gastos de los Hogares 2020.
+
+## Desarrollo
+Se deberá de generar un modelo para poder determinar si algunas variables sociodemográficas y/o económicas de una localidad como son: el tamaño de la población, la actividad económica preponderante, el nivel de ingreso y gastos, tienen influencia en el comportamiento de ventas de una tienda. Para lo anterior se utilizará el dataset existente de datos históricos de las tiendas y se añadirán algunos datos provenientes de las encuestas del INEGI ya mencionadas de la localidad actual de cada tienda.
+Se seleccionará el mejor método de entrenamiento y creación del modelo para generar un modelo que pueda predecir el comportamiento de ventas de una tienda, dependiendo de la localidad en la que se elija abrir la nueva tienda. 
+Se tomará la decisión de abrir la nueva tienda, sólo si se supera el promedio de ventas del año pasado de las tiendas del mismo formato.
+
+
 ### Contenido
 El repositorio contiene:
 - Cuaderno Colab con proyecto final (ipynb)
