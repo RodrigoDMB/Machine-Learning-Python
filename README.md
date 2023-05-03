@@ -18,6 +18,9 @@ El objetivo de este proyecto es generar un modelo de Machine Learning que apoye 
 
 ## Datasets
 Para lograr el objetivo anterior se requerirán de los siguientes datasets:
+1.
+2.
+3.
 1.- Histórico de ventas clasificados por tienda, tipo de tienda, asentamiento o localidad y fecha.
 2.- Datos de demográficos clasificados por localidad o asentamiento, provenientes de la Encuesta Nacional de Ocupación y Empleo Nueva Edición (ENOEN) del INEGI
 3.- Datos de actividad económica clasificados por localidad provenientes de la Encuesta Nacional de Ingresos y Gastos de los Hogares 2020.
