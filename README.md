@@ -33,6 +33,6 @@ Se tomará la decisión de abrir la nueva tienda, sólo si se supera el promedio
 
 ### Contenido
 El repositorio contiene:
-- Cuaderno Colab con proyecto final (F3M2_Proyecto_Final - Equipo 14.ipynb)
+- Cuaderno Colab con proyecto final (F3M2_Proyecto_Final_Equipo_14.ipynb)
 - Presentación del proyecto (Prototype Day Modelo de Apertura de Nuevas Tiendas v2.0.pptx)
 - Archivo Readme.md
